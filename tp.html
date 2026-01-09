@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Swiper Card</title>
+
+  <!-- External Librarie (Swiper JS) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <!-- External CSS --> 
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+  <div class="card">
+
+    <!-- Swiper -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="images/girl 1.png"></div>
+        <div class="swiper-slide"><img src="images/girl 2.png"></div>
+        <div class="swiper-slide"><img src="images/girl 3.png"></div>
+      </div>
+    </div>
+
+    <!-- Profile -->
+    <div class="profile">
+      <h1>Angel Priya</h1>
+      <h5 id="status">Stranger</h5>
+    </div>
+
+    <!-- Buttons -->
+    <div class="actions">
+      <button id="remove">Remove</button>
+      <button id="add">Add Friend</button>
+    </div>
+
+    <!-- Slider Buttons -->
+    <div class="slider-buttons">
+      <button data-slide="0" class="active">1</button>
+      <button data-slide="1">2</button>
+      <button data-slide="2">3</button>
+    </div>
+
+  </div>
+
+  <!-- External Library (Swiper JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- External JS -->
+   <script src="script.js"></script>
+  
+
+</body>
+</html>
